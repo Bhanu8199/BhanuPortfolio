@@ -12,7 +12,6 @@ This portfolio highlights my projects, skills, and experiences in the field of w
 - **Project Showcase**: Detailed descriptions of each project.
 - **Contact Form**: Allows visitors to reach out to me directly.
 - **Skills Section**: Highlights my technical skills and proficiencies.
->>>>>>> b0ba844c9aae679a6c53bf22b723d1f7f032a40a
 
 **Use your preferred IDE**
 
