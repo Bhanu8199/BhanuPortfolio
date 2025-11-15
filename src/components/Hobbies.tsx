@@ -7,7 +7,7 @@ const Hobbies = () => {
     {
       icon: Film,
       title: "Movie",
-      favorite: "Favourite Movies -  Thammudu, Maharshi",
+      favorite: "Favourite Movies -  OG, Thammudu, Maharshi",
       color: "text-red-500"
     },
     {
