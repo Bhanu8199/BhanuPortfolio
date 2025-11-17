@@ -34,7 +34,7 @@ const Navigation = () => {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      isScrolled || isOpen ? 'bg-background/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
       <div className="container px-4">
         <div className="flex items-center justify-between h-16">
@@ -74,7 +74,7 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t">
+          <div className="md:hidden py-4 border-t bg-background/95 backdrop-blur-md">
             {navItems.map((item, index) => (
               <a
                 key={item.href}

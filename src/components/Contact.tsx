@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Phone, Mail, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
 import { saveContactMessage, ContactFormData } from "@/lib/contact";
@@ -139,6 +139,15 @@ const Contact = () => {
                       className="w-5 h-5 mr-2"
                     />
                     LeetCode
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="flex-1 border-2"
+                    onClick={() => window.open('https://github.com/bhanu8199', '_blank')}
+                  >
+                    <Github className="w-5 h-5 mr-2" />
+                    GitHub
                   </Button>
 
                 </div>
