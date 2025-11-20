@@ -13,7 +13,7 @@ const Hobbies = () => {
     {
       icon: Gamepad,
       title: "Games",
-      favorite: "Playing  Cricket and Badminton during leisure time.",
+      favorite: "Playing  Cricket and Badminton.",
       color: "text-purple-500"
     },
     {
